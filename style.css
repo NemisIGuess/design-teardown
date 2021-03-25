@@ -1,0 +1,19 @@
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+:root {
+  --hierarchy-top: rgb(70, 70, 70);
+  --hierarchy-middle: rgb(140, 140, 140);
+  --hierarchy-low: rgb(210, 210, 210);
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 6.5em;
+  width: 100vw;
+  background-color: var(--hierarchy-middle);
+}
